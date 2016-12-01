@@ -1,5 +1,6 @@
 {
   "name": "root/untitled",
+  "minimum-stability": "dev",
   "authors": [
     {
       "name": "William",
@@ -8,10 +9,14 @@
   ],
   "autoload": {
     "psr-4": {
-      "Projeto\\": "src/"
+      "Projeto\\": "src/",
+      "Projeto\\Core\\": "core/"
     },
     "files": [
       "bootstrap/environment.php"
     ]
+  },
+  "require": {
+    "danielstjules/stringy": "^2.3"
   }
 }
