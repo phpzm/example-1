@@ -1,0 +1,17 @@
+{
+  "name": "root/untitled",
+  "authors": [
+    {
+      "name": "William",
+      "email": "wilcorrea@gmail.com"
+    }
+  ],
+  "autoload": {
+    "psr-4": {
+      "Projeto\\": "src/"
+    },
+    "files": [
+      "bootstrap/environment.php"
+    ]
+  }
+}
